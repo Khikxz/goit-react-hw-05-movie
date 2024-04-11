@@ -22,6 +22,7 @@ const MovieDetailsPage = () => {
 
   useEffect(() => {
     fetchDetails();
+     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [movieId]);
 
   if (!movieDetails) {
